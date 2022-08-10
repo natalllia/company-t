@@ -1,0 +1,752 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Company T</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header-container">
+
+        <nav class="nav">
+          <div class="nav-logo nav-left"><a href="#"><img src="img/header/1.png" alt=""></a></div>
+          <div class="nav-right">
+            <div class="nav-phone">
+              <a href="tel:+7 495 154 13 14">
+                <img src="img/header/phone.svg" alt="">
+                <span>+7 495 154 13 14</span>
+              </a>
+            </div>
+            <div class="nav-viber">
+              <a href="#">
+                <img src="img/header/viber.svg" alt="">
+              </a>
+            </div>
+            <div class="nav-telegram">
+              <a href="#">
+                <img class="nav-img-center" src="img/header/telegram.svg" alt="">
+              </a>
+            </div>
+            <a href="#message" class="nav-button">ОСТАВИТЬ ЗАЯВКУ</a>
+          </div>
+          <button class="burger" id="navToggle" type="button">
+            <div class="bar"></div>
+          </button>
+        </nav>
+
+        <nav class="mobile-nav" id="mobileNav">
+          <div class="mobile-nav-links">
+            <a class="mobile-nav-item" href="#about">О компании</a>
+            <a class="mobile-nav-item" href="#servises">Наши услуги</a>
+            <a class="mobile-nav-item" href="#benefits">преимущества</a>
+            <a class="mobile-nav-item" href="#expressAudit">Экспресс аудит</a>
+            <a class="mobile-nav-item" href="#blog">Блог</a>
+            <a class="mobile-nav-item" href="#contacts">Контакты</a>
+          </div>
+          <div class="mobile-nav-buttons">
+            <div class="nav-phone">
+              <a href="tel:">
+                <img src="img/header/phone.svg" alt="">
+                <span>+7 495 154 13 14</span>
+              </a>
+            </div>
+            <a href="#message" class="nav-button mobile-nav-button">ОСТАВИТЬ ЗАЯВКУ</a>
+            <div class="mobile-nav-social">
+              <div class="nav-viber">
+                <a href="#">
+                  <img src="img/header/viber.svg" alt="">
+                </a>
+              </div>
+              <div class="nav-telegram">
+                <a href="#">
+                  <img class="nav-img-center" src="img/header/telegram.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="subnav">
+          <div class="subnav-row">
+            <div class="subnav-item">
+              <a href="#about">О компании</a>
+            </div>
+            <div class="subnav-item">
+              <a href="#servises">Наши услуги</a>
+            </div>
+            <div class="subnav-item">
+              <a href="#benefits">преимущества</a>
+            </div>
+            <div class="subnav-item">
+              <a href="#expressAudit">Экспресс аудит</a>
+            </div>
+            <div class="subnav-item">
+              <a href="#blog">Блог</a>
+            </div>
+            <div class="subnav-item">
+              <a href="#contacts">Контакты</a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-title">
+          <div class="title-img">
+            <img src="img/header/cube.png" alt="" data-tilt>
+          </div>
+          <div class="title-text">
+            <h1>С нами</h1>
+            <h1>все сложится!</h1>
+            <ul>
+              <li>
+                <h4>бухгалтерское сопровождение</h4>
+              </li>
+              <li>
+                <h4>аудиторские услуги</h4>
+              </li>
+              <li>
+                <h4>налоговый консалтинг</h4>
+              </li>
+              <li>
+                <h4>управленческий учет</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="orange-box">
+          <div class="orange-box-left">
+            <h5>Получите надежное бухгалтерское обслуживание с гарантиями и ответственностью в договоре</h5>
+          </div>
+          <div class="orange-box-right">
+            <form class="orange-box-form" method="post" action="#">
+              <input class="orange-box-tel" type="tel" id="phone" placeholder="+7 (495) ___ - __ - __"
+                autocomplete="off">
+              <div class="orange-box-button">
+                <input class="orange-box-button-submit" type="submit" value="КОНСУЛЬТАЦИЯ">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> 
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-title about-container">
+            <h2>О нас</h2>
+            <h4>Аудиторская фирма ТЕТ успешно оказывает услуги с 1995г.</h4>
+            <p class="about-text">За это время мы сформировали команду профессионалов в сфере бухгалтерского,
+              управленческого учета и аудита, поэтому можем гарантировать компетентность наших сотрудников и высокое
+              качество наших услуг.</p>
+          </div>
+          <div class="about-clients about-container">
+            <p>Среди наших клиентов не только российские компании, но и компании нерезиденты различных форм
+              собственности.
+              Наша компания имеет официальное подтверждение АПУ о соответствии системы контроля качества и
+              сертифицированных штатных аудиторов. </p>
+          </div>
+        </div>
+
+        <div class="experts">
+          <div class="container">
+            <div class="experts-title">
+              <h2>Команда экспертов</h2>
+              <div class="slider-arrows">
+                <div class="prev-arrow"><img src="img/experts/prev-arrow.svg" alt=""></div>
+                <div class="next-arrow"><img src="img/experts/next-arrow.svg" alt=""></div>
+              </div>
+            </div>
+            <h4>Ни один специалист не будет эффективнее целой команды!</h4>
+            <div class="experts-slider">
+              <div class="experts-item">
+                <img src="img/experts/1.png" alt="">
+                <p class="expert-name">Иванова Лариса Васильевна</p>
+                <p class="expert-profession">Ведущий бухгалтер</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/2.png" alt="">
+                <p class="expert-name">Васильева Екатерина</p>
+                <p class="expert-profession">Первичник</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/3.png" alt="">
+                <p class="expert-name">Гришин Владимир Иванович</p>
+                <p class="expert-profession">Ведущий бухгалтер</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/4.png" alt="">
+                <p class="expert-name">Васильева Ирина Игоревна</p>
+                <p class="expert-profession">Первичник</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/1.png" alt="">
+                <p class="expert-name">Лершина Наталья Васильевна</p>
+                <p class="expert-profession">Ведущий бухгалтер</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/2.png" alt="">
+                <p class="expert-name">Васильева Анастасия</p>
+                <p class="expert-profession">Первичник</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/3.png" alt="">
+                <p class="expert-name">Иванов Петр Геннадиевич</p>
+                <p class="expert-profession">Ведущий бухгалтер</p>
+              </div>
+
+              <div class="experts-item">
+                <img src="img/experts/4.png" alt="">
+                <p class="expert-name">Васильева Анастасия Игоревна</p>
+                <p class="expert-profession">Первичник</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="help">
+        <div class="container help-container">
+          <div class="help-row">
+            <div class="help-left">
+              <h2>Как бы стремительно не менялся мир, но</h2>
+              <h4>грамотная финансовая отчетность продолжает определять успешность и обоснованность управленческих
+                решений.</h4>
+              <p class="help-text">Наш опыт в сфере бухгалтерского и управленческого учета позволяет оперативно оценить
+                состояние предприятия, подготовить все виды отчетности и уберечь от возможных убытков и штрафов.</p>
+            </div>
+            <div class="help-right">
+              <h4>мы Помогаем:</h4>
+              <ul>
+                <li>эффективно планировать</li>
+                <li>контролировать</li>
+                <li>распределять ответственность</li>
+                <li>оптимизировать налогообложение</li>
+                <li>привлекать заемные средства.</li>
+              </ul>
+            </div>
+          </div>
+          <h3>Компетентная коммуникация с фискальными службами - мы всегда на вашей стороне. </h3>
+        </div>
+        <div class="experience">
+          <div class="container experience-container">
+            <img src="img/experience/bg.png" alt="">
+            <div class="experience-box" data-tilt="">
+              <h6>Большой опыт</h6>
+              <p>досудебных и судебных споров с налоговой. Миллионы рублей отмененных штрафных санкций</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="servises" id="servises">
+        <div class="container">
+          <h2>Наши услуги</h2>
+          <div class="servises-row">
+            <div class="servises-card">
+              <div class="servises-card-title">
+                <img src="img/servises/1.svg" alt="">
+                <h4>Бухгалтерский учет</h4>
+              </div>
+              <ul>
+                <li>Ведение бухгалтерского учета</li>
+                <li>Восстановление бухгалтерского учета</li>
+                <li>Постановка бухгалтерского учета</li>
+                <li>Ведение кадрового учет</li>
+                <li>Единоразовая подача отчетности</li>
+              </ul>
+            </div>
+
+            <div class="servises-card">
+              <div class="servises-card-title">
+                <img src="img/servises/2.svg" alt="">
+                <h4>Аудит</h4>
+              </div>
+              <ul>
+                <li>Экспресс аудит</li>
+                <li>Налоговый аудит</li>
+                <li>Кадровый аудит</li>
+                <li>Инициативный аудит предприятия</li>
+                <li>Обязательный аудит предприятия</li>
+                <li>Аудиторское сопровождение</li>
+              </ul>
+            </div>
+
+            <div class="servises-card">
+              <div class="servises-card-title">
+                <img src="img/servises/3.svg" alt="">
+                <h4>Управленческий учет</h4>
+              </div>
+              <ul>
+                <li>Написание учетной политики компании</li>
+                <li>Разработка системы отчетности для ведения управленческого учета</li>
+                <li>Внедрение управленческого учета на базе 1С</li>
+                <li>Подбор системы финансовых показателей для контроля финансового состояния компании</li>
+              </ul>
+            </div>
+
+            <div class="servises-card">
+              <div class="servises-card-title">
+                <img src="img/servises/4.svg" alt="">
+                <h4>Налоговая практика</h4>
+              </div>
+              <ul>
+                <li>Сопровождение проверок</li>
+                <li>Досудебные и судебные споры с налоговой</li>
+                <li>Разблокировка налоговых накладных</li>
+                <li>Налоговое планирование и оптимизация</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="outsoursing">
+            <div class="outsoursing-left">
+              <h2>Аутсорсинг бухгалтерии</h2>
+              <p>Бизнес предпочитает фокусироваться на своих целевых процессах, а непрофильные функции отдавать
+                сторонним специалистам. Если раньше аутсорсинг бухгалтерии рассматривался исключительно с точки зрения
+                экономии на штатном бухгалтере, то сейчас к нему обращаются с целью</p>
+              <h4>достичь конкурентных преимуществ, снижения финансовых рисков и повышения рентабельности бизнеса. </h4>
+            </div>
+            <div class="outsoursing-right">
+              <h5>70%</h5>
+              <p>компаний в мире пользуются услугами бухгалтера на аутсорсе</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="for-who">
+        <div class="container for-who-container">
+          <div class="for-who__inner">
+            <div class="for-who__left">
+
+              <div class="for-who__title">
+                <h2>Кому подходит</h2>
+                <h4>бухгалтерский аутсорсинг</h4>
+              </div>
+
+              <div class="for-who__item">
+                <h4><span>01.</span> Стартапы</h4>
+                <p>Аутсорсинг бухгалтерии дает возможность посвятить себя бизнес-процессам, не распыляясь на
+                  вспомогательные функции.</p>
+              </div>
+
+              <div class="for-who__item">
+                <h4><span>02.</span> ФОПы, малые и средние предприятия</h4>
+                <p>Бухгалтерское сопровождение позволит оптимизировать расходы на содержание штатного специалиста. К
+                  тому же ожидать качественный результат и защиту от налоговых рисков от бухгалтера-фрилансера точно не
+                  стоит</p>
+              </div>
+
+            </div>
+            <div class="for-who__right">
+
+              <div class="for-who__item">
+                <h4><span>03.</span> Сезонный бизнес</h4>
+                <p>Содержать бухгалтерию в период спада активности невыгодно. Поэтому у компаний сезонного бизнеса
+                  аутсорсинг бухгалтерских услуг пользуется спросом</p>
+              </div>
+
+              <div class="for-who__item">
+                <h4><span>04.</span> Иностранный бизнес</h4>
+                <p>Бухгалтерское сопровождение позволит оптимизировать расходы на содержание штатного специалиста. К
+                  тому же ожидать качественный результат и защиту от налоговых рисков от бухгалтера-фрилансера точно не
+                  стоит</p>
+              </div>
+
+              <div class="for-who__item">
+                <h4><span>05.</span> Компании с двумя и более учредителями</h4>
+                <p>Передача учетных функций обеспечивает прозрачность учета и независимость бухгалтерии, равный доступ
+                  пользователей к результатам учета</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="image-block">
+        <div class="wide-container">
+          <img src="img/image-block/block.png" alt="">
+        </div>
+      </section>
+
+      <section class="benefits" id="benefits">
+        <div class="container benefits-container">
+          <div class="benefits__inner">
+            <div class="benefits__left">
+              <div class="benefits__title">
+                <h2>Наши преимущества</h2>
+              </div>
+
+              <div class="benefits__item">
+                <div class="benefits__icon">
+                  <img src="img/benefits/1.svg" alt="">
+                </div>
+                <div class="benefits__item__text">
+                  <h4>Профессионализм</h4>
+                  <p>Наличие в штате сертифицированных аудиторов позволяет постоянно проводить контроль качества работы
+                    бухгалтеров, а автоматизация учетных процессов помогает исключить операционные ошибки</p>
+                </div>
+              </div>
+
+              <div class="benefits__item">
+                <div class="benefits__icon">
+                  <img src="img/benefits/2.svg" alt="">
+                </div>
+                <div class="benefits__item__text">
+                  <h4>Эффективность</h4>
+                  <p>Гибкие условия сотрудничества. Снижение затрат на содержание штатных специалистов. Отсутствие
+                    кадровых проблем и привязки к специалисту. Связь 24/7 без отпусков и больничных</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="benefits__right">
+
+              <div class="benefits__item">
+                <div class="benefits__icon">
+                  <img src="img/benefits/3.svg" alt="">
+                </div>
+                <div class="benefits__item__text">
+                  <h4>Надежность</h4>
+                  <p>Страхуем профессиональную ответственность, несем финансовые гарантии за нашу работу и гарантируем
+                    качество предоставляемых нами услуг</p>
+                </div>
+              </div>
+
+              <div class="benefits__item">
+                <div class="benefits__icon">
+                  <img src="img/benefits/4.svg" alt="">
+                </div>
+                <div class="benefits__item__text">
+                  <h4>Прозрачность</h4>
+                  <p>обеспечим объективное представление о финансовом состоянии компании</p>
+                </div>
+              </div>
+
+              <div class="benefits__item">
+                <div class="benefits__icon">
+                  <img src="img/benefits/5.svg" alt="">
+                </div>
+                <div class="benefits__item__text">
+                  <h4>Конфиденциальность</h4>
+                  <p>сохраняем полную конфиденциальность и информационную безопасность ваших данных</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container growth-container">
+          <div class="growth__box">
+            <h4>Мы растем вместе с нашими клиентами,</h4>
+            <h3>поэтому делаем все, чтобы ваш бизнес был успешным!</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="begin">
+        <div class="container begin-container">
+          <h2>С чего начать?</h2>
+          <div class="begin-row">
+            <div class="begin-item">
+              <div class="begin-icon">
+                <h3>1</h3>
+              </div>
+              <div class="begin-item__text">
+                <h4>Консультация</h4>
+                <p>Мы с радостью расскажем более подробно о нашей компании и предоставим информацию об услугах.</p>
+              </div>
+            </div>
+
+            <div class="begin-item">
+              <div class="begin-icon">
+                <h3>2</h3>
+              </div>
+              <div class="begin-item__text">
+                <h4>Экспресс-аудит</h4>
+                <p>Проводим экспресс аудит предприятия, обсуждаем детали, подбираем оптимальные условия сотрудничества.
+                </p>
+              </div>
+            </div>
+
+            <div class="begin-item">
+              <div class="begin-icon">
+                <h3>3</h3>
+              </div>
+              <div class="begin-item__text">
+                <h4>Договор</h4>
+                <p>Согласуем и подписываем договор, Принимаем документы, ключи, доступы. Организуем учет и
+                  документооборот.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="express-audit" id="expressAudit">
+        <div class="container express-audit__container">
+          <div class="express-audit__box">
+            <h3>Экспресс аудит</h3>
+            <div class="express-audit-box__row">
+              <div class="express-audit__text">
+                <p>Сделаем анализ состояния бухгалтерского учета вашей компании. Предоставим рекомендации по
+                  оптимизации, сообщим о наличии ошибок и потенциальных налоговых рисках.</p>
+              </div>
+              <div class="express-audit__btn"><a href="#message">Оставить заявку</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="publications" id="blog">
+        <div class="container publications-container">
+          <div class="publications-title">
+            <h2>Публикации</h2>
+            <div class="slider-arrows">
+              <div class="prev-arrow"><img src="img/experts/prev-arrow.svg" alt=""></div>
+              <div class="next-arrow"><img src="img/experts/next-arrow.svg" alt=""></div>
+            </div>
+          </div>
+          <div class="publications-slider">
+            <div class="publications-slider-item">
+              <div class="publications-slider-item__image">
+                <a href="#">
+                  <img src="img/publications/1.png" alt="">
+                  <p class="publications-slider-item__date">25.07.21</p>
+                </a>
+              </div>
+              <p>Органический трафик даёт нам право принимать самостоятельные решения</p>
+            </div>
+
+            <div class="publications-slider-item">
+              <div class="publications-slider-item__image">
+                <a href="#">
+                  <img src="img/publications/2.png" alt="">
+                  <p class="publications-slider-item__date">25.07.21</p>
+                </a>
+              </div>
+              <p>Светлый лик правового взаимодействия развеял последние сомнения</p>
+            </div>
+
+            <div class="publications-slider-item">
+              <div class="publications-slider-item__image">
+                <a href="#">
+                  <img src="img/publications/3.png" alt="">
+                  <p class="publications-slider-item__date">25.07.21</p>
+                </a>
+              </div>
+              <p>Органический трафик даёт нам право принимать самостоятельные решения</p>
+            </div>
+
+            <div class="publications-slider-item">
+              <div class="publications-slider-item__image">
+                <a href="#">
+                  <img src="img/publications/1.png" alt="">
+                  <p class="publications-slider-item__date">25.07.21</p>
+                </a>
+              </div>
+              <p>Воистину радостный звук: боевой клич героев</p>
+            </div>
+
+            <div class="publications-slider-item">
+              <div class="publications-slider-item__image">
+                <a href="#">
+                  <img src="img/publications/2.png" alt="">
+                  <p class="publications-slider-item__date">25.02.22</p>
+                </a>
+              </div>
+              <p>Светлый лик правового взаимодействия развеял последние сомнения</p>
+            </div>
+
+            <div class="publications-slider-item">
+              <div class="publications-slider-item__image">
+                <a href="#">
+                  <img src="img/publications/3.png" alt="">
+                  <p class="publications-slider-item__date">05.07.21</p>
+                </a>
+              </div>
+              <p>Воистину радостный звук: боевой клич героев</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="trust">
+        <div class="container trust-container">
+          <div class="trust-title">
+            <h2>Нам доверяют</h2>
+            <div class="slider-arrows">
+              <div class="prev-arrow"><img src="img/experts/prev-arrow.svg" alt=""></div>
+              <div class="next-arrow"><img src="img/experts/next-arrow.svg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="trust-slider">
+            <div class="trust-slider-item">
+              <img src="img/trust/1.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/2.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/3.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/1.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/2.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/3.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/1.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/2.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/3.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/1.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/2.png" alt="">
+            </div>
+
+            <div class="trust-slider-item">
+              <img src="img/trust/3.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container contacts-container">
+          <div class="contacts-title">
+            <h2>Контакты</h2>
+            <h4>Хотите обсудить сотрудничество или остались вопросы, – позвоните или напишите нам</h4>
+          </div>
+          <div class="contacts-inner">
+            <div class="contacts-left">
+              <div class="contacts-phones">
+                <div class="contacts-phones-item">
+                  <p>Телефон:</p>
+                  <a href="tel:+7 495 259 91 15">+7 495 259 91 15</a>
+                </div>
+                <div class="contacts-phones-item">
+                  <p>Мобильный</p>
+                  <a href="tel:+7 495 111 11 11">+7 495 346 15 61</a>
+                </div>
+                <div>
+                </div>
+              </div>
+              <div class="contacts-adress">
+                <div class="contacts-adress-item">
+                  <p>Адрес:</p>
+                  <a
+                    href="https://www.google.com/maps?ll=50.385403,30.489662&z=15&t=m&hl=ru&gl=UA&mapclient=embed&q=%D0%93%D0%BE%D0%BB%D0%BE%D1%81%D0%B5%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+89+%D0%9A%D0%B8%D0%B5%D0%B2+02000">Гоголевский
+                    проспект, 36, Москва, 123465, Россия</a>
+                </div>
+                <div class="contacts-adress-item">
+                  <p>E-mail:</p>
+                  <a href="mailto:site@company-t.com">site@company-t.com</a>
+                </div>
+                <div>
+                </div>
+              </div>
+              <div class="contacts-social">
+                <div class="contacts-btn">
+                  <a href="#">
+                    <img src="img/header/viber.svg" alt="">
+                  </a>
+                </div>
+                <div class="contacts-btn">
+                  <a href="#">
+                    <img src="img/header/telegram.svg" alt="">
+                  </a>
+                </div>
+                <div class="contacts-btn">
+                  <a href="#">
+                    <img src="img/header/instagram.svg" alt="">
+                  </a>
+                </div>
+                <div class="contacts-btn">
+                  <a href="#">
+                    <img src="img/header/facebook.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="contacts-map">
+               
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.621167848025!2d37.59688743314181!3d55.747710937654695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bad34e7d691%3A0xf166554de23f133b!2z0JHQvtC70YzRiNC-0Lkg0JfQvdCw0LzQtdC90YHQutC40Lkg0L_QtdGALiwgMTkg0LrQvtGA0L_Rg9GBIDUsINCc0L7RgdC60LLQsCwgMTE5MDE5!5e0!3m2!1sru!2sru!4v1656846787773!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></iframe>
+              </div>
+              <div class="contacts-subscribe">
+                <p>Подпишитесь на нашу рассылку и получайте новости и извещения о событиях и отраслевые отчеты на свою
+                  почту.</p>
+                <form class="contacts-email-form" method="post" action="#">
+                  <input class="contacts-email-input" type="email" id="contactsEmail" placeholder="E-mail"
+                    autocomplete="off">
+                  <input class="contacts-email-input-submit" onclick="clearFields();" type="submit" value="">
+                </form>
+              </div>
+            </div>
+
+            <div class="contacts-right" id="message">
+              <h3>Отправить сообщение</h3>
+              <form class="contacts-message" method="post" action="#">
+                <input class="contacts-name-input" type="text" id="contactsName" placeholder="Ваше имя"
+                  autocomplete="off">
+
+                <input class="contacts-email-input" type="email" id="contactsEmailMessage" placeholder="E-mail"
+                  autocomplete="off">
+
+                <textarea class="contacts-message-textarea" name="message" id="contactsMessage" rows="3"
+                  placeholder="Сообщение" autocomplete="off"></textarea>
+
+                <p>Нажимая “Отправить” вы автоматически соглашаетесь с политикой конфиденциальности</p>
+                <input class="contacts-right-btn" type="submit" value="Отправить">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2022 ООО «Компания Т». ИНН 23112345607. Все права защищены.</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/slick.css">
+  </div>
+</body>
+
+</html>
